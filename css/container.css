@@ -1,6 +1,6 @@
 .container {
-  height: 66rem;
-  width: 98rem;
+  height: 58rem;
+  width: 90rem;
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(0.4rem);
@@ -9,7 +9,6 @@
 }
 
 .home {
-  min-height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +20,7 @@
 .home h3 {
   font-size: 2.5rem;
   font-weight: lighter;
-  color: #fff;
+  color: #eee;
 }
 
 .home .name span {
@@ -48,10 +47,11 @@
   border-radius: 1rem;
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  transition: 0.2s linear;
 }
 
 .home .share a {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
   padding: 1rem 2rem;
   margin: 1rem;
